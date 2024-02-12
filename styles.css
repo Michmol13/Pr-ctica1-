@@ -1,0 +1,17 @@
+/* Es una práctica común eliminar margin y padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    }
+    /* Puedo seleccionar elementos por su tipo */
+    h1 {
+    color: red;
+    }
+    /* Puedo seleccionar elementos por su clase */
+    .text {
+    color: blue;
+    }
+    /* Puedo seleccionar elementos por su id */
+    #last_p {
+    color: green;
+    }
