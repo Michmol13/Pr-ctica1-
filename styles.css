@@ -12,6 +12,17 @@ body, h1, p {
     padding: 160px;
     background-image: url(banner-web-childhoodcancer-2022.webp);
     }
+    /* Puedo seleccionar elementos por su tipo */
+    h2{
+        color: goldenrod;
+        font-size: 45px;
+    }
+    img{
+        width: 350px;
+        height: 450px;
+        border-radius: 25px;
+    }
+
     /* Puedo seleccionar elementos por su clase */
     .text {
     color: blue;
