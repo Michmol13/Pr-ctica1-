@@ -5,10 +5,12 @@ body, h1, p {
     }
     /* Puedo seleccionar elementos por su tipo */
     h1 {
-    color: goldenrod;
+    color: rgb(66, 91, 236);
     text-transform: capitalize;
-    text-align: center;
-    font-size: 50px;
+    text-align: left;
+    font-size: 35px;
+    padding: 160px;
+    background-image: url(banner-web-childhoodcancer-2022.webp);
     }
     /* Puedo seleccionar elementos por su clase */
     .text {
