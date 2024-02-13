@@ -5,7 +5,10 @@ body, h1, p {
     }
     /* Puedo seleccionar elementos por su tipo */
     h1 {
-    color: red;
+    color: goldenrod;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 50px;
     }
     /* Puedo seleccionar elementos por su clase */
     .text {
