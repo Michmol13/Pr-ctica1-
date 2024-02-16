@@ -5,12 +5,13 @@ body, h1, p {
     background-color: #ffe7ff;
     }
     /* Puedo seleccionar elementos por su tipo */
-    h1 {
-    color: rgb(66, 91, 236);
+    .title {
+    color: hwb(246 25% 7%);
     text-transform: capitalize;
     text-align: left;
     font-size: 35px;
     padding: 160px;
+    margin: 30px;
     background-image: url(banner-web-childhoodcancer-2022.webp);
     }
     /* Puedo seleccionar elementos por su tipo */
@@ -23,7 +24,7 @@ body, h1, p {
         display: flexbox;
         font-size: 30px;
         margin: 80px 100px; 
-    .text2 {
+    .text2{
         color: #1f8459;
         font-size: 28.5px;
         margin-top: 25px;
@@ -56,24 +57,45 @@ body, h1, p {
        margin: 8px;
        list-style-position: inside;
        }
-       .Sistema{
-        display: flex;
-        flex-direction: column;
-        width: 400px;
+       table ,th ,td{
+        border: 1px solid black;
+        margin: 50px;
+    }
+    th ,td{
+        padding: 4px;
+    }
+    th{
+        background-color: #d6d6b9;
+    }
+    td{
+        text-align: center;
+    }
+    .sintomas{
+        border-radius: 30px;
+        width: 1200px;
         height: 500px;
-        border-radius: 35px;
-        margin: 15px 0px 0px 550px; 
+        margin: 50px 0px 0px 0px; 
+        justify-content: center;
     }
-        
-   
-    /* Puedo seleccionar elementos por su clase */
-    .text1 {
-    color: #001d04;
+    .text6{
+        color: rgb(66, 91, 236);
+        text-transform: capitalize;
+        text-align: left;
+        font-size: 35px;
+        margin: 15px;
+        align-items: center;
     }
-    .text2 {
-        color: #001d04;
+    .Video1{
+        width: 350px;
+        height: 450px;
+        border-radius: 30px;
     }
-    /* Puedo seleccionar elementos por su id */
-    #last_p {
-    color: green;
+    .Video2{
+        width: 350px;
+        height: 450px;
+        border-radius: 30px;
+        margin-left: 100px;
+    }
+    h1{
+        background-image: url(Golden\ .png)
     }
