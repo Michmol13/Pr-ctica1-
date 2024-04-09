@@ -23,7 +23,8 @@ body, h1, p {
         color: #1f8459;
         display: flexbox;
         font-size: 30px;
-        margin: 80px 100px; 
+        margin: 80px 100px;
+    }
     .text2{
         color: #1f8459;
         font-size: 28.5px;
@@ -72,29 +73,52 @@ body, h1, p {
     }
     .sintomas{
         border-radius: 30px;
-        width: 1200px;
-        height: 500px;
-        margin: 50px 0px 0px 0px; 
+        width: 800px;
+        height: 400px;
         justify-content: center;
+        margin: 15px 0px 0px 200px;
+        align-items: center;
+        display: block;
     }
     .text6{
         color: rgb(66, 91, 236);
         text-transform: capitalize;
-        text-align: left;
+        text-align: center;
         font-size: 35px;
-        margin: 15px;
+        margin: 20px;
         align-items: center;
+        padding-top: 50px;
     }
     .Video1{
         width: 350px;
         height: 450px;
         border-radius: 30px;
+        align-items: center;
+        margin-left: 100px;
+        padding-top: 20px;
     }
     .Video2{
         width: 350px;
         height: 450px;
         border-radius: 30px;
-        margin-left: 100px;
+        margin-left: 300px;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .contenedor2{
+        width: 1500px;
+        max-width: 500px;
+        margin-left: 10px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .table1{
+        height: 500px;
+    }
+    .table4{
+        height: 379px;
     }
     h1{
         background-image: url(Golden\ .png)
