@@ -23,17 +23,17 @@ opcionesArray.forEach((opcion)=>{
 function estableceridioma(idioma) {
     idiomaActual.getElementsByTagName('img')[0].src = `banderas/${idioma}.svg`;
     switch (idioma) {
-        case 'Español':
-            titulo.textContent = 'La vida de tus hijos esta en tus manos'
-            titulo.textContent = '!El cáncer infantil no se puede prevenir, pero sí enfrentar¡'
-            parrafo.textContent = 'Por una detección y atención temprana.'
-            parrafo.textContent = '¿Qué es el cáncer?'
-            break;
         case 'Ingles':
             titulo.textContent = 'Your childrens lives are in your hands'
             titulo.textContent = '¡Childhood cancer cannot be prevented, but it can be faced!'
             parrafo.textContent = 'For early detection and care.'
             parrafo.textContent = 'What is cancer?'
+            break;
+        case 'Español':
+            titulo.textContent = 'La vida de tus hijos esta en tus manos'
+            titulo.textContent = '!El cáncer infantil no se puede prevenir, pero sí enfrentar¡'
+            parrafo.textContent = 'Por una detección y atención temprana.'
+            parrafo.textContent = '¿Qué es el cáncer?'
         case 'Portugues':
             titulo.textContent = 'A vida dos seus filhos está em suas mãos'
             titulo.textContent = '¡O câncer infantil não pode ser prevenido, mas pode ser enfrentado!'
@@ -43,3 +43,15 @@ function estableceridioma(idioma) {
             break;
     }
 }
+
+
+document.addEventListener('DOMContentLoaded',()=>{
+    switch (navigator.language) {
+        case en-US:
+            estableceridioma('Ingles')
+            break;
+    
+        default:
+            break;
+    }
+})
