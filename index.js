@@ -43,15 +43,3 @@ function estableceridioma(idioma) {
             break;
     }
 }
-
-
-document.addEventListener('DOMContentLoaded',()=>{
-    switch (navigator.language) {
-        case en-US:
-            estableceridioma('Ingles')
-            break;
-    
-        default:
-            break;
-    }
-})
