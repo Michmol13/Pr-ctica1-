@@ -1,70 +1,39 @@
-ul{
-    padding-left: 0%;
-    list-style: none;
+.es{
+    color: #333;
 }
-a{
-    text-decoration: none;
+.en{
+    color: #333;
 }
-.idioma img{
-    width: 15px;
-    height: 15px;
-}
-.idiomas img{
-    width: 15px;
-    height: 15px;
-}
-.translate{
-    display: flex;
-    justify-content: end;
-    width: 95%;
-    margin: auto;
-}
-.idioma{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    padding: 10px;
-    border: 1px solid rgb(219, 219, 219);
+.check{
     position: relative;
-    }
-.idioma:hover{
-        background-color: rgb(228, 228, 228)
-    }
-    /* Lista de idiomas */
-.idiomas {
-        position: absolute;
-        top: 35px; display: flex;
-        flex-direction: column;
-        visibility: hidden;
-    }
-.idiomas li .opcion{
-        width: 100%;
-    }
-.idiomas li a{
-        display: block;
-        padding: 12px;
-        font-size: 15px;
-        color: rgb(85, 85, 85);
-    }
-.idiomas li a:hover{
-        background-color: rgb(219, 219, 219);
-    }
-.idiomas li img{
-        border-radius: 50%;
-    }
-    /* toogle - js */
-.toggle{
-        visibility: visible;
-    }
-    /* main */
-.Info{
-        width: 50%;
-        margin-inline: auto;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
+    width: 50px;
+}
+.check:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+}
+.check:after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+.check:checked:after{
+    left: 25px;
+    border: 2px solid #F09F93;
+}
+.check:checked:before{
+    background: #F09F93;
+}
 /* Es una práctica común eliminar margin y padding */
 body, h1, p {
     margin: 0;
