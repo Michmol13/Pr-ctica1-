@@ -152,22 +152,20 @@ body, h1, p {
         align-items: center;
         padding-top: 20px;
     }
-    .contenedor2{
-        width: 1500px;
-        max-width: 500px;
-        margin-left: 10px;
-        height: 100px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: #1f8459;
-    }
     .table1{
-        height: 500px;
+        text-align: center;
+    }
+    .table2{
+        height: 400px;
+        text-align: center;
+    }
+    .table3{
+        height: 505px;
+        padding-top: 70px;
+        text-align: center;
     }
     .table4{
-        height: 379px;
-    }
-    h1{
-        background-image: url(Golden\ .png)
+        height: 370px;
+        text-align: center;
+        margin-inline-end: 55px;
     }

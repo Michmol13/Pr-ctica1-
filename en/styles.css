@@ -136,38 +136,35 @@ body, h1, p {
         align-items: center;
         padding-top: 50px;
     }
-    .Video1{
-        width: 350px;
-        height: 450px;
-        border-radius: 30px;
-        align-items: center;
-        margin-left: 100px;
-        padding-top: 20px;
+    .contenedor3{
+        background-color: green;
+        display: flex;
+        width: 100px;
     }
-    .Video2{
-        width: 350px;
-        height: 450px;
-        border-radius: 30px;
-        margin-left: 300px;
+    .video1vertical{
         align-items: center;
-        padding-top: 20px;
+        display: flex;
+        height: 450px;
     }
-    .contenedor2{
-        width: 1500px;
-        max-width: 500px;
-        margin-left: 10px;
-        height: 100px;
+    .video2horizontal{
+        align-items: center;
+        display: flex;
+        height: 450px;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: #1f8459;
     }
     .table1{
+        text-align: center;
+    }
+    .table2{
+        height: 400px;
+        text-align: center;
+    }
+    .table3{
         height: 500px;
+        padding-top: 20px;
+        text-align: center;
     }
     .table4{
         height: 379px;
-    }
-    h1{
-        background-image: url(Golden\ .png)
+        text-align: center;
     }
